@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/12/2021, 11:18:50 AM
+    Author     : pcgc7
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../imagenes/fondoPaginaHamburguesa.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.navbar {
+    background-image: linear-gradient(to right, #fff 0%, #a12312 100%);    
+    z-index: 30;
+}
+.navbar-brand p {
+    font-size: 1.25em;  
+}
+.navbar-brand p span {
+    font-family: 'Dancing Script', cursive;
+}
+.nav-link {
+    font-size: 1.25em;
+    color: #fff!important;
+}
+.nav-link:hover {
+    border-bottom: 1px solid #fff;
+}
+.menu .container {
+    max-width: 93.75em !important;
+}
+.colorFondo {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header .img-fluid {        
+        max-width: 25%;
+    }
+    header .navbar-brand p {
+        font-size: 0.75em;
+    }
+    header .nav-link {
+        color: #000!important;
+        font-size: 0.75em;
+        margin: 0.25em!important;
+    }     
+    .menu h2 {
+        font-size: 1.5em;
+        padding-bottom: 0.5em!important;
+    }
+    .menu p {
+        font-size: 0.75em;
+        margin-bottom: 0!important;
+    }    
+    .menu h6 {
+        font-size: 0.75em;
+    }
+}

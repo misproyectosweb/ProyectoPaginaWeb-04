@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<!-- Página principal del restaurante -->
+
+<html lang="es">
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="pizzería, Especialidades, Buzón, Aperitivos, Pizzas, Pastas, Hamburguesas, Pstres, Bebidas"/>
+        <meta name="description" content="Bienvenidos a la página web de la pizzería Costa Rica, donde encontrará un amplio y variado menú de platillos para que disfrute con su familia y amigos"/>                
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">  
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/logoPizza_32x32.png"/>
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>        
+    </head>
+    <body>        
+        <!-- Inicio sección de encabezado y menú principal -->
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand d-flex flex-row" href="#">
+                    <img src="imagenes/logoPizza_1.png" class="m-1 img-fluid" alt=""/>
+                    <p class="ml-3 mb-0 text-right d-flex flex-column justify-content-center">Pizzería Costa Rica<br><span>...y algo más!!</span></p>
+                </a> 
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white m-3" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white m-3" href="#especialidades">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white m-3" href="#historia">Historia</a>
+                        </li>
+<!--                        <li class="nav-item">
+                            <a class="nav-link text-white m-3" href="#">El muro</a>
+                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link text-white m-3" href="#comentarios">Buzón</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white m-3" href="#contacto">Contáctenos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Fin sección de encabezado y menú principal -->
+        
+        <main>
+            <!-- Inicio sección principal -->            
+            <!-- Sección de inicio -->
+            <section class="inicio border-bottom border-danger" id="inicio">                                
+                <div class="imagenFondo">                    
+                    <div class="container-fluid">                   
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 d-flex flex-column">                                                                                                
+                                <div class="imagenes pt-4">
+                                    <img src="imagenes/interior_1.jpg" class="img-fluid img-thumbnail p-3 mb-3 border border-success bg-success float-left" alt=""/>
+                                    <img src="imagenes/interior_2.jpg" class="img-fluid img-thumbnail p-3 mb-3 border border-danger bg-danger float-right" alt=""/>
+                                    <img src="imagenes/interior_3.jpg" class="img-fluid img-thumbnail p-3 mb-3 border border-success bg-success float-left" alt=""/>
+                                </div>                                
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 d-flex flex-column">                                                                                                                                
+                                <div class="imagenes pt-4">
+                                    <img src="imagenes/interior_4.jpg" class="img-fluid img-thumbnail p-3 mb-3 border border-danger bg-danger float-right" alt=""/>
+                                    <img src="imagenes/interior_5.jpg" class="img-fluid img-thumbnail p-3 mb-3 border border-success bg-success" alt=""/>
+                                    <img src="imagenes/interior_6.jpg" class="img-fluid img-thumbnail p-3 mb-3 bborder border-danger bg-danger float-right" alt=""/>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>                
+            </section>
+            
+            <!-- Sección menú de especialidades -->                                    
+            <section class="especialidades pt-4 border-bottom border-danger" id="especialidades">
+                <h1 class="text-center font-weight-bold text-dark pb-4">Nuestras <span class="text-danger">especialidades</span></h1>
+                <div class="container-fluid">
+                    <div class="row justify-content-center align-content-center">
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                            <div class="card border-danger mb-3">
+                                <img src="imagenes/imgAperitivos.jpg" class="img-fluid card-img-top" alt="imagen menú de aperitivos">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center font-weight-bold">Aperitivos</h5>
+                                    <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                                    <a href="paginaAperitivos.html" class="btn btn-outline-danger font-weight-bold">Ir al menú</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                            <div class="card border-danger mb-3">
+                                <img src="imagenes/imgPizzas.jpg" class="img-fluid card-img-top" alt="imagen menú de pizzas">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center font-weight-bold">Pizzas</h5>
+                                    <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                                    <a href="paginaPizzas.html" class="btn btn-outline-danger font-weight-bold">Ir al menú</a>
+                                </div>
+                              </div>
+                        </div>  
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                            <div class="card border-danger mb-3">
+                                <img src="imagenes/imgPastas.jpg" class="img-fluid card-img-top" alt="imagen menú de pastas">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center font-weight-bold">Pastas</h5>
+                                    <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                                    <a href="paginaPastas.html" class="btn btn-outline-danger font-weight-bold">Ir al menú</a>
+                                </div>
+                              </div>
+                        </div>  
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                            <div class="card border-danger mb-3">
+                                <img src="imagenes/imgHamburguesas.jpg" class="img-fluid card-img-top" alt="imagen menú de hamburguesas">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center font-weight-bold">Hamburguesas</h5>
+                                    <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                                    <a href="paginaHamburguesas.html" class="btn btn-outline-danger font-weight-bold">Ir al menú</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                            <div class="card border-danger mb-3">
+                                <img src="imagenes/imgBebidas.jpg" class="img-fluid card-img-top" alt="imagen menú de bebidas">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center font-weight-bold">Bebidas</h5>
+                                    <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                                    <a href="paginaBebidas.html" class="btn btn-outline-danger font-weight-bold">Ir al menú</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                            <div class="card border-danger mb-3">
+                                <img src="imagenes/imgPostres.jpg" class="img-fluid card-img-top" alt="imagen menú de postres">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center font-weight-bold">Postres</h5>
+                                    <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                                    <a href="paginaPostres.html" class="btn btn-outline-danger font-weight-bold">Ir al menú</a>
+                                </div>
+                              </div>
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Sección nuestra historia -->
+            <section class="historia pt-4 border-bottom border-danger" id="historia">
+                <h1 class="text-center font-weight-bold text-dark pb-4">Nuestra historia</h1>
+                <div class="container-fluid">
+                    <div class="row">                    
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <figure class="figure text-center">
+                                <img src="imagenes/fotoHistoria.jpg" class="figure-img img-fluid rounded img-thumbnail" alt="imagen primera ubicación de la pizzería">
+                                <figcaption class="figure-caption text-center text-white mb-3">A caption for the above image</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-8">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor molestie mauris, ut pretium lectus ornare id. Vestibulum condimentum, ligula et lacinia pulvinar, urna tellus viverra justo, a auctor purus metus et orci. Aenean porta, lacus rhoncus tincidunt egestas, lectus lorem varius est, et rhoncus sapien ante sed massa. Donec tincidunt risus magna, non ultricies lorem sodales id. Suspendisse vel libero vel sapien ultricies ultricies. Suspendisse sed commodo dolor. Quisque et suscipit massa. Duis sed condimentum metus.</p>
+                            <p>Nunc sit amet lacus urna. Vivamus eget eros quam. Curabitur aliquam augue in lacus lobortis, et tempus nunc semper. Vivamus eleifend feugiat ex finibus gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla augue quam, tincidunt a lectus vitae, blandit gravida magna. Donec et risus fermentum dui elementum dignissim. Aenean scelerisque auctor nisi in blandit. Aliquam non nunc vel felis vestibulum consectetur sit amet in tortor. Suspendisse posuere dui id dictum tincidunt. Suspendisse sodales orci a rhoncus rhoncus. Maecenas molestie venenatis lorem, sit amet faucibus elit consectetur at. Nullam vel tempor sem. Sed sit amet malesuada nibh. Ut dapibus convallis dictum. Quisque vitae lectus eros.</p>
+                            <p>Morbi pretium augue sit amet nulla posuere, id rhoncus magna maximus. Nulla facilisi. Praesent sagittis nunc lectus, et convallis tortor ullamcorper non. Duis in volutpat tellus, eget rutrum sem. In hac habitasse platea dictumst. Vestibulum a auctor lectus. Aliquam placerat tellus et felis egestas, eu vulputate sapien porttitor. Phasellus at turpis efficitur, semper lorem id, pulvinar ligula. Duis iaculis, sapien id placerat pretium, sem nisl egestas turpis, eget tincidunt nisi orci ut mauris. Suspendisse eu orci libero. Aenean tellus dolor, congue in leo scelerisque, viverra eleifend mauris. Cras pellentesque ullamcorper augue sed tincidunt.</p>
+                            <p>Duis sagittis libero in tortor dictum, ac ornare metus pretium. Suspendisse potenti. Integer et dui in augue pulvinar aliquam non et mi. Etiam at lacinia lectus, id sagittis ipsum. Morbi turpis nisl, blandit nec congue vel, finibus a augue. Morbi luctus, elit non malesuada ultricies, metus massa feugiat mauris, ac cursus risus augue ac nisl. Pellentesque commodo, lorem at convallis tempor, purus est vestibulum ex, id lobortis lacus nisl at metus. Integer vel sem consectetur, mollis sapien nec, viverra tellus. Sed quam lectus, tempor nec est non, fringilla dapibus eros. Praesent ultricies ligula id viverra placerat.</p>
+                            <p>Nullam dapibus orci sit amet nibh sagittis, a molestie arcu sodales. Quisque euismod auctor libero, ac tristique ante vestibulum a. Phasellus sodales ullamcorper risus nec tristique. Cras condimentum magna auctor, sagittis augue in, cursus ex. Pellentesque neque urna, luctus a commodo nec, vehicula nec enim. Vivamus fringilla, diam eu ullamcorper dapibus, turpis nulla dictum velit, sit amet facilisis nulla augue eget metus. Integer auctor sit amet nisi ac hendrerit. Donec maximus ex sit amet odio elementum tristique.</p>
+                        </div>                    
+                    </div>                
+                </div>
+            </section>
+            
+            <!-- Sección de comentarios -->
+            <section class="comentarios py-4 border-bottom border-danger" id="comentarios">
+                <h1 class="text-center font-weight-bold text-dark pb-4">Comentarios <span class="text-danger">y sugerencias</span></h1>
+                <h4 class="text-center pb-3">Coméntanos tu experiencia en nuestro restaurante</h4>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">                            
+                            <form action="" class="frmContacto" method="POST">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-user-tie"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                                </div> 
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-phone-alt"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="telcasa" placeholder="Teléfono casa">
+                                    
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-mobile-alt"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="telcelular" placeholder="Teléfono celular">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                                    </div>
+                                    <input type="email" class="form-control" id="correo" placeholder="Correo">
+                                </div> 
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-map-marker-alt"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="direccion" placeholder="Dirección domicilio">
+                                </div> 
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-pencil-alt"></i></div>
+                                    </div>
+                                    <textarea cols="30" rows="10" class="form-control" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                                </div> 
+                                <button type="submit" class="btn btn-outline-danger btn-block font-weight-bold" id="boton">Envíar mensaje</button>
+                            </form>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center">
+                            <img src="imagenes/servicioExpress.png" class="img-fluid w-75 mx-auto d-block" alt=""/>                            
+                        </div>
+                    </div>
+                </div>
+            </section>  
+        </main>
+        <!-- Fin sección principal -->        
+        <!-- Pie de página -->
+        <footer class="contacto pb-3 border-bottom border-danger" id="contacto">
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 d-flex flex-column">
+                        <h4 class="py-4">Siganos en redes sociales:</h4> 
+                        <div class="d-flex flex-row my-2">
+                            <i class="icono fab fa-facebook-square"></i>
+                            <a href="#" target="_blank" class="text-decoration-none text-white pl-3">Facebook</a>                            
+                        </div>
+                        <div class="d-flex flex-row my-2">
+                            <i class="icono fab fa-instagram"></i>
+                            <a href="#" target="_blank" class="text-decoration-none text-white pl-3">Instagram</a>
+                        </div>
+                        <div class="d-flex flex-row my-2">
+                            <i class="icono fab fa-twitter"></i>
+                            <a href="#" target="_blank" class="text-decoration-none text-white pl-3">Twitter</a>
+                        </div>
+                        <div class="d-flex flex-row my-2">
+                            <i class="icono fab fa-youtube-square"></i>
+                            <a href="#" target="_blank" class="text-decoration-none text-white pl-3">YouTube</a>
+                        </div>
+                    </div>                    
+                    <div class="col-6 col-sm-6 col-md-6 d-flex flex-column">
+                        <h4 class="py-4">Información para contacto:</h4> 
+                        <div class="d-flex flex-row my-2">
+                            <i class="icono fab fa-waze"></i>
+                            <a href="#" target="_blank" class="text-decoration-none text-white pl-3">Lorem ipsum, dolor sit, amet</a>
+                        </div>
+                        <div class="d-flex flex-row my-2">                            
+                            <i class="icono fas fa-phone-alt"></i>
+                            <p class="text-white m-0 pl-3">(+506) XXXX-XXXX</p>                            
+                        </div>
+                        <div class="d-flex flex-row my-2">
+                            <i class="icono fab fa-whatsapp"></i>                             
+                            <p class="text-white m-0 pl-3">(+506) XXXX-XXXX</p>                            
+                        </div>
+                        <div class="d-flex flex-row my-2">
+                            <i class="icono fas fa-envelope-open-text"></i>
+                            <p class="text-white m-0 pl-3">Lorem_ipsum@sitamet.com</p>                            
+                        </div>
+                    </div>                                                                               
+                </div>
+            </div>            
+        </footer>        
+        
+        <!-- Archivos JavaScript y CDN's -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>        
+        <script src="js/servidor.js" type="text/javascript"></script>        
+    </body>
+</html>

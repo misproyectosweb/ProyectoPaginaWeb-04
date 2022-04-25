@@ -1,0 +1,317 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/02/2022, 04:07:41 PM
+    Author     : pcgc7
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    background-image: linear-gradient(to right, #fff 0%, #a12312 100%);
+    box-shadow: 0 0.75em 0.75em 0 rgba(0,0,0,0.5);
+    z-index: 30;
+}
+.navbar-brand p {
+    font-size: 1.25em;  
+}
+.navbar-brand p span {
+    font-family: 'Dancing Script', cursive;
+}
+.nav-link {
+    font-size: 1.25em;   
+}
+.nav-link:hover {
+    border-bottom: 1px solid #fff;
+}
+.imagenFondo {
+    background-image: url('../imagenes/fondoInicio.jpg');  
+    background-size: cover;       
+    min-height: 100vh;
+}
+.historia {
+   background-image: linear-gradient(to left, #fff 0%, #a12312 100%);   
+}
+.contacto {
+    background-color: rgba(161, 35, 18, 0.8);
+}
+.contacto .icono {
+    font-size: 1.35em;
+}
+.contacto a, .contacto p {
+    font-size: 1em;
+}
+.contacto h4 {
+    padding-bottom: 0.5em!important;
+    font-size: 1.35em;        
+}
+.contacto .row {
+    margin-left: 4em!important;
+    padding-left: 3.5em!important;
+} 
+
+/* Estilos para dispositivos móviles */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header .img-fluid {        
+        max-width: 25%;
+    }
+    header .navbar-brand p {
+        font-size: 0.75em;
+    }
+    header .nav-link {
+        color: #000!important;
+        font-size: 0.75em;
+        margin: 0.25em!important;
+    }     
+    .inicio .imagenes img {
+        padding: 0.5em!important;
+    }
+    .especialidades h1, .historia h1,
+    .comentarios h1, .contacto h1 {
+        font-size: 1.5em;        
+    } 
+    .especialidades .card-title,
+    .historia h5 {
+        font-size: 1em;
+    }
+    .especialidades .card-text,
+    .historia p {
+        font-size: 0.75em;
+    }
+    .historia .figure img {
+        width: 80%;        
+    }
+    .historia .figure-caption {
+        font-size: 0.65em;
+    }        
+    .comentarios h1 {
+        padding-bottom: 0.5em!important;
+    }
+    .comentarios h4 {
+        font-size: 0.7em;
+    }
+    .comentarios input[placeholder],
+    .comentarios textarea {
+        font-size: 0.7em;
+    }
+    .comentarios .input-group.mb-3 {
+        margin-bottom: 0.5em!important;
+    }
+    .comentarios i {
+        width: 1em!important;        
+    }
+    .comentarios img {
+        padding: 0.75em 0;
+        max-width: 25%!important; 
+    } 
+    .contacto .icono {
+        font-size: 1em;
+    }
+    .contacto a, .contacto p {
+        font-size: 0.75em;
+    }
+    .contacto h4 {
+        padding-bottom: 0.5em!important;
+        font-size: 1em;        
+    } 
+    .contacto .row {
+        margin-left: 0.5em!important;
+        padding-left: 0.5em!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {     
+    header .img-fluid {        
+        max-width: 30%;
+    }
+    header .navbar-brand p {
+        font-size: 1em;
+    }
+    header .nav-link {
+        color: #000!important;
+        font-size: 1em;
+        margin: 0.5em!important;
+    } 
+    .inicio .imagenes img {
+        padding: 0.5em!important;
+    }
+    .especialidades h1, .historia h1,
+    .comentarios h1, .contacto h1 {
+        font-size: 1.75em;        
+    }    
+    .especialidades .card-title,
+    .historia h5 {
+        font-size: 1em;
+    }
+    .especialidades .card-text,
+    .historia p {
+        font-size: 0.8em;
+    }    
+    .historia .figure-caption {
+        font-size: 0.7em;
+    }     
+    .comentarios h1 {
+        padding-bottom: 0.5em!important;
+    }
+    .comentarios h4 {
+        font-size: 0.85em;
+    }
+    .comentarios input[placeholder],
+    .comentarios textarea {
+        font-size: 0.75em;
+    }
+    .comentarios .input-group.mb-3 {
+        margin-bottom: 0.5em!important;
+    }
+    .comentarios i {
+        width: 1em!important;        
+    }
+    .comentarios img {
+        max-width: 70%!important; 
+    }     
+    .contacto .icono {
+        font-size: 1em;
+    }
+    .contacto a, .contacto p {
+        font-size: 0.75em;
+    }
+    .contacto h4 {
+        padding-bottom: 0.5em!important;
+        font-size: 1em;        
+    }
+    .contacto .row {
+        margin-left: 3em!important;
+        padding-left: 1.5em!important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    header .img-fluid {        
+        max-width: 30%;
+    }   
+    header .navbar-brand p {
+        font-size: 1em;
+    }
+    header .nav-link {
+        color: #fff!important;
+        font-size: 1em;
+        margin: 0.75em!important;
+    }
+    .inicio .imagenes img {
+        padding: 0.75em!important;
+    }
+    .especialidades h1, .historia h1,
+    .comentarios h1, .contacto h1 {
+        font-size: 2em;        
+    } 
+    .especialidades .card-title,
+    .historia h5 {
+        font-size: 1em;
+    }
+    .especialidades .card-text,
+    .historia p {
+        font-size: 0.85em;
+    } 
+    .historia .figure-caption {
+        font-size: 0.75em;
+    }
+    .comentarios h1 {
+        padding-bottom: 1em!important;
+    }
+    .comentarios h4 {
+        font-size: 1em;
+    }
+    .comentarios input[placeholder],
+    .comentarios textarea {
+        font-size: 0.8em;
+    }            
+    .comentarios img {
+        max-width: 70%!important; 
+    }     
+    .contacto .icono {
+        font-size: 1em;
+    }
+    .contacto a, .contacto p {
+        font-size: 0.75em;
+    }
+    .contacto h4 {
+        padding-bottom: 0.5em!important;
+        font-size: 1em;        
+    }
+    .contacto .row {
+        margin-left: 4em!important;
+        padding-left: 3.5em!important;
+    }       
+}
+
+@media (min-width: 1200px) and (max-width: 1365.98px) {
+    header .img-fluid {        
+        max-width: 35%;
+    } 
+    header .navbar-brand p {
+        font-size: 1.25em;        
+    }    
+    header .nav-link {
+        color: #fff!important;
+        font-size: 1.25em;
+        margin: 0.75em!important;
+    }    
+    .inicio .imagenes img {
+        padding: 1em!important;
+    }    
+    .especialidades h1, .historia h1,
+    .comentarios h1, .contacto h1 {
+        font-size: 2.5em;        
+    }             
+    .especialidades .card-title,
+    .historia h5 {
+        font-size: 1em;
+    }
+    .especialidades .card-text,
+    .historia p {
+        font-size: 0.9em;
+    } 
+    .historia .figure-caption {
+        font-size: 0.8em;
+    }    
+    .comentarios h1 {
+        padding-bottom: 1em!important;
+    }
+    .comentarios h4 {
+        font-size: 1.15em;
+    }
+    .comentarios input[placeholder],
+    .comentarios textarea {
+        font-size: 0.85em;
+    }
+    .comentarios .input-group.mb-3 {
+        margin-bottom: 1em!important;
+    }
+    .comentarios img {
+        max-width: 70%!important; 
+    }     
+    .contacto .icono {
+        font-size: 1em;
+    }
+    .contacto a, .contacto p {
+        font-size: 0.75em;
+    }
+    .contacto h4 {
+        padding-bottom: 0.5em!important;
+        font-size: 1em;        
+    }
+    .contacto .row {
+        margin-left: 4em!important;
+        padding-left: 3.5em!important;
+    } 
+}
