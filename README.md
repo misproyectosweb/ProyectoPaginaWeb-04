@@ -38,8 +38,6 @@ A continuación se presentan algunas imágenes del sitio web brevemente descrito
 
 ![_PaginaWeb_4 01](https://user-images.githubusercontent.com/98922137/166354836-1c9e5743-a423-4e1e-a57f-eaebddd2adc3.jpg)
 
-![_PaginaWeb_4 02](https://user-images.githubusercontent.com/98922137/166356596-5be1f702-1d3a-461c-b55d-f78c2fe7ec7e.jpg)
-
 ![_PaginaWeb_4 03](https://user-images.githubusercontent.com/98922137/166358454-893c957b-141d-4790-a871-d84d176c9988.jpg)
 
 ![_PaginaWeb_4 04](https://user-images.githubusercontent.com/98922137/166358570-2be96c4c-23ba-45a4-a9e9-2e4e8eab66c6.jpg)
