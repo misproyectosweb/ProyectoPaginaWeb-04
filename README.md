@@ -11,7 +11,7 @@ Este sitio web fue creado y desarrollado usando la plataforma NetBeans 10.0. Ade
 
 El archivo index.html es el que contiene la página de inicio, la página principal del sitio web.
 
-El sitio web en su totalidad consta de varias secciones: 
+La página de inicio o principal consta de varias secciones: 
 1. **Un encabezado:** donde se muestra el logotipo de la organización y el menú principal
 2. **Una sección principal:** el cual de cuatro partes:
    - La primera parte consta de una presentación del negocio a través de imágenes
